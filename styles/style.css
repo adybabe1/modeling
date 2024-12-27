@@ -372,39 +372,47 @@ footer p {
   font-weight: bold;
   margin-top: 1rem;
 }
-
+/* Social Media Section Styling */
 .social-links {
   margin-top: 2rem;
+  text-align: center; /* Center-align the social media links */
 }
 
 .social-links a {
   font-size: 1.1rem;
-  color: #ff1493;
+  color: #ff1493; /* Original pink color */
   text-decoration: none;
   margin: 0 1rem;
-  transition: color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 30px; /* Rounded corners for the links */
+  background-color: #f1f1f1; /* Light background */
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #ff69b4;
+  color: #ff69b4; /* Lighter pink on hover */
+  background-color: #ffe0f0; /* Light pink background on hover */
   text-decoration: underline;
+  transform: translateY(-3px); /* Slightly elevate the link on hover */
 }
 
+/* Contact Photo Styling */
 .contact-photo {
   margin-top: 3rem;
+  text-align: center; /* Center-align the contact photo */
 }
 
 .contact-photo img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #ff69b4;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensure the image is well cropped */
+  border: 4px solid #ff69b4; /* Pink border around the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-photo img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
