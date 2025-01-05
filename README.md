@@ -1,6 +1,3 @@
-Here’s a sample README for your modeling portfolio website:  
-
----
 
 # Modeling Portfolio Website  
 
@@ -71,9 +68,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact  
 Feel free to connect with me for collaborations, feedback, or inquiries:  
-- **Email**: [Your Email Here]  
-- **Social Media**: [Your Links Here]  
-
----
-
-Let me know if you'd like specific customizations or additional sections! 😊  
+- **Email**: adaora.m.onwumelu@gmail.com 
+- **Social Media**: tiktok: @a.daora 
